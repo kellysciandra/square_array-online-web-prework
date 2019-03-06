@@ -1,5 +1,5 @@
 def square_array(numbers)
-  numbers.map! {|num| num ** 2}
   numbers.each do |num|
+    puts num * 2
   end
 end
